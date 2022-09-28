@@ -40,7 +40,6 @@
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"package": "svelte-kit package",
 		"package:watch": "watch 'pnpm package' src",
-		"prepare": "svelte-kit sync",
 		"preview": "vite preview"
 	},
 	"type": "module",
